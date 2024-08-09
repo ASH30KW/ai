@@ -15,13 +15,15 @@ const Header = () => {
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/skills">Skills</Link></li>
                     <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/work-experience">Work Experience</Link></li>
+                    <li><Link to="/education">Education</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
+
             </nav>
             <div className="social-icons">
-                <a href="https://linkedin.com/in/yourprofile"><FaLinkedin /></a>
-                <a href="https://github.com/yourusername"><FaGithub /></a>
-                <a href="https://twitter.com/yourusername"><FaTwitter /></a>
+                <a href="https://www.linkedin.com/in/jinxin-a-098002253/"><FaLinkedin /></a>
+                <a href="https://github.com/ASH30KW"><FaGithub /></a>
             </div>
         </header>
     );
