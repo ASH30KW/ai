@@ -1,8 +1,12 @@
 .home {
-    height: 100vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('./me.jpeg');
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 100px 100px;
   }
   
   .home-content {
