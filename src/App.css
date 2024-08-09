@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* New styles for sticky footer */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: auto;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+}
