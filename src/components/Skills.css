@@ -1,0 +1,23 @@
+.skills {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .skill-set {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    flex: 1 1 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .skill h3 {
+    margin-bottom: 10px;
+  }
+  

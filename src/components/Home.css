@@ -1,0 +1,29 @@
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-content {
+    text-align: center;
+    color: white;
+  }
+  
+  .home-content h1 {
+    font-size: 3em;
+  }
+  
+  .home-content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  

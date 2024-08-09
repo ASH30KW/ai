@@ -1,0 +1,29 @@
+.projects {
+  padding: 20px;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
