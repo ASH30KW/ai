@@ -1,10 +1,10 @@
 import React from 'react';
 import './Home.css';
-import logo192 from './logo192.png';
+import me from './me.jpeg';
 
 const Home = () => {
     return (
-        <div className="home" style={{ backgroundImage: `url(${logo192})` }}>
+        <div className="home" style={{ backgroundImage: `url(${me})` }}>
             <div className="home-content">
                 <h1>Hi, I'm Jinxin Ai</h1>
                 <p>Aspiring [Your Profession]</p>
