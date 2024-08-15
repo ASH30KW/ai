@@ -1,18 +1,24 @@
 .education {
-    padding: 20px;
-  }
-  
-  .school {
-    margin-bottom: 20px;
-  }
-  
-  .school h3 {
-    margin-bottom: 5px;
-    font-size: 1.5em;
-  }
-  
-  .school p {
-    margin: 5px 0;
-    font-size: 1.2em;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.school {
+  width: 100%;
+  max-width: 900px; /* Adjust this value based on your desired content width */
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.school h3 {
+  margin-bottom: 5px;
+  font-size: 1.5em;
+}
+
+.school p {
+  margin: 5px 0;
+  font-size: 1.2em;
+}

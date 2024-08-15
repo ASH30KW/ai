@@ -6,8 +6,9 @@ const WorkExperience = () => {
         <section className="work-experience">
             <h2>Work Experience</h2>
             <div className="experience">
-                <h3>Job Title 1</h3>
-                <p><strong>Company Name</strong> | January 2020 - Present</p>
+                <h3>Fullstack developer</h3>
+                <p><strong>TUM</strong> | May 2023 - Aug. 2024</p>
+                <p>Group TOA</p>
                 <ul>
                     <li>Responsibility or achievement 1.</li>
                     <li>Responsibility or achievement 2.</li>
@@ -15,8 +16,9 @@ const WorkExperience = () => {
                 </ul>
             </div>
             <div className="experience">
-                <h3>Job Title 2</h3>
-                <p><strong>Company Name</strong> | June 2018 - December 2019</p>
+                <h3>Fullstack developer</h3>
+                <p><strong>Fullstack developer</strong> | May 2022 - Oct. 2022</p>
+                <p>Group LDV</p>
                 <ul>
                     <li>Responsibility or achievement 1.</li>
                     <li>Responsibility or achievement 2.</li>
