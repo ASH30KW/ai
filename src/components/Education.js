@@ -4,8 +4,8 @@ import './Education.css';
 const Education = () => {
     return (
         <section className="education">
-            <h2>Education</h2>
             <div className="school">
+                <h2>Education</h2>
                 <h3>M.Sc Robotics, Cognition, Intelligence</h3>
                 <p><strong>TUM</strong> | Oct. 2023 - Present</p>
                 <p>
