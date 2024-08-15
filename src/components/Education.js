@@ -8,8 +8,18 @@ const Education = () => {
             <div className="school">
                 <h3>M.Sc Robotics, Cognition, Intelligence</h3>
                 <p><strong>TUM</strong> | Oct. 2023 - Present</p>
-                <p><strong>Intership:</strong> Geometric Scene Understanding</p>
-                <p><strong>Seminar:</strong> Neural Network Design Patterns in Computer Vision</p>
+                <p>
+                    <strong>Internship: </strong>
+                    <a href="https://cvg.cit.tum.de/teaching/ss2024/gsu" target="_blank" rel="noopener noreferrer">
+                        Geometric Scene Understanding
+                    </a>
+                </p>
+
+                <p><strong>Seminar: </strong>
+                    <a href="https://cvg.cit.tum.de/teaching/ss2024/patterns" target="_blank" rel="noopener noreferrer">
+                        Neural Network Design Patterns in Computer Vision
+                    </a>
+                </p>
             </div>
             <div className="school">
                 <h3>B.Sc Electrical Engineering
