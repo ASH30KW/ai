@@ -1,29 +1,91 @@
-.projects {
-  padding: 20px;
-  text-align: center;
+/* Projects.css */
+
+.projects-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+.toc {
+  width: 200px;
+  position: sticky;
+  top: 20px; /* Keeps the TOC in view when scrolling */
+  margin-right: 20px;
 }
 
+.toc ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0; /* Ensure no margin is causing horizontal display */
+}
+
+.toc li {
+  margin-bottom: 20px; /* Adds space between each list item */
+}
+
+.toc a {
+  text-decoration: none;
+  color: #007bff;
+  display: block; /* Ensures each link takes up the full width of the list item */
+  text-align: left; /* Align text to the left */
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
+/* Main content */
 .project-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+    flex: 1;
 }
 
 .project {
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
-.project h3 {
-  margin-bottom: 10px;
+.training-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.training-table th, 
+.training-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+.training-table img {
+    max-width: 100px;
+    height: auto;
+}
+
+.label-cell {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.project-gif {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
 }
 
 .btn {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-right: 10px;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
 }
