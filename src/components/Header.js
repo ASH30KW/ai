@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 import './Header.css';
 
 const Header = () => {
@@ -8,8 +7,6 @@ const Header = () => {
         <header>
             <div className="logo">
                 <h1 style={{ color: 'black' }}>Jinxin Ai</h1>
-
-
             </div>
             <nav>
                 <ul>
@@ -23,8 +20,6 @@ const Header = () => {
 
             </nav>
             <div className="social-icons">
-                <a style={{ color: 'black' }} href="https://www.linkedin.com/in/jinxin-a-098002253/"><FaLinkedin /></a>
-                <a style={{ color: 'black' }} href="https://github.com/ASH30KW"><FaGithub /></a>
             </div>
         </header>
     );
