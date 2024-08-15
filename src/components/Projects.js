@@ -21,13 +21,28 @@ import afrotimage3 from './projects/gsu/finetuning/aferfinetuning/rot/image3.gif
 import afrotimage4 from './projects/gsu/finetuning/aferfinetuning/rot/image4.gif';
 
 const Projects = () => {
+    const scrollToSection = (e, sectionId) => {
+        e.preventDefault(); // Prevent the default anchor behavior
+        const section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <section className="projects-container">
             {/* Table of Contents */}
             <nav className="toc">
                 <ul>
-                    <li><a href="#section1">Geometric Scene Understanding</a></li>
-                    <li><a href="#section2">Project Two</a></li>
+                    <li>
+                        <a href="#section1" onClick={(e) => scrollToSection(e, 'section1')}>
+                            Geometric Scene Understanding
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#section2" onClick={(e) => scrollToSection(e, 'section2')}>
+                            Project Two
+                        </a>
+                    </li>
                 </ul>
             </nav>
 
