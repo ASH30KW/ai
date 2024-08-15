@@ -1,20 +1,25 @@
 header {
-    background-color: rgb(214, 214, 214);
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .social-icons a {
-    color: white;
-    margin-left: 10px;
-  }
-  
+  background-color: rgb(214, 214, 214);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin-left: 10px;
+}

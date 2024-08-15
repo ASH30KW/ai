@@ -16,10 +16,7 @@ const Header = () => {
                     <li><Link to="/work-experience">Work Experience</Link></li>
                     <li><Link to="/education">Education</Link></li>
                 </ul>
-
             </nav>
-            <div className="social-icons">
-            </div>
         </header>
     );
 };
