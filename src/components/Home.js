@@ -5,11 +5,12 @@ import me from './me.jpeg';
 const About = () => {
     return (
         <section className="about">
-            <h2>About Me</h2>
+            <h2>About</h2>
             <div className="about-content">
                 <img src={me} alt="Me" className="about-image" />
                 <div className="about-text">
-                    <p>I am a passionate [Your Profession] with a background in [Your Background]. I love solving problems and creating impactful solutions. With a strong foundation in [Your Skills/Field], I am eager to contribute to [Industry/Field] and continue growing in this exciting field.</p>
+                    <p>He earned his undergraduate degree in Electrical Engineering and Information Technology from the Technical University of Munich (TUM) and is now pursuing graduate studies in Robotics, Cognition, and Intelligence at TUM. </p>
+                    <p>He has a clear career focus on <strong>computer vision </strong> and <strong>deep learning</strong>, driven by a deep passion for these areas. His commitment is reflected in his continuous pursuit of state-of-the-art technologies and his eagerness to learn, research, and apply the latest advancements in the field.</p>
                 </div>
             </div>
         </section>

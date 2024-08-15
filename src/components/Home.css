@@ -23,9 +23,10 @@
 }
 
 .about-text {
+  text-align: left;
   flex: 1;
   color: black;
-  font-size: 1.5rem; /* Increase the font size of the text */
+  font-size: 1.3rem; /* Increase the font size of the text */
   line-height: 1.75; /* Increase line height for better readability */
 }
 
