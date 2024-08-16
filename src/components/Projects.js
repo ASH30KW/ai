@@ -69,7 +69,7 @@ const Projects = () => {
             </nav>
             <div className="project-grid">
                 <div className="project" id="section1">
-                    <h3>Geometric Scene Understanding</h3>
+                    <h3>Geometric Scene Understanding (2024)</h3>
                     <p>The goal of this course is to gain practical experience with state-of-the-art computer vision models and implement innovative ideas tackling open real-world challenges.</p>
                     <p><strong>Technologies:</strong> gaussian splatter, stable diffusion, deep learning</p>
                     <p>This project investigates the generalization potential of models trained using the Gaussian Splatter Method. Two primary scenarios were explored:</p>
@@ -150,13 +150,13 @@ const Projects = () => {
                         Reconstruction
                         of a Room
                         based on
-                        Stereo Images</h3>
+                        Stereo Images (2023)</h3>
                     {/* <p>Description of your project and what you achieved.</p> */}
                     <p><strong>Technologies:</strong> Matlab, Multiview Geometric Reconstruction</p>
                     <img src={cv15} width="100%" height="100%" alt="" />
                 </div>
                 <div className="project" id="section3">
-                    <h3>MMOM System Fullstack Development</h3>
+                    <h3>MMOM System Fullstack Development (2023 to 2024)</h3>
                 </div>
             </div>
         </section>
