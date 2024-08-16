@@ -6,7 +6,7 @@ const Skills = () => {
         <section className="skills">
             <div className="skill">
                 <h2>Skills</h2>
-                <h3>Computer Vison & Deeplearning</h3>
+                <h3>Computer Vison & Deep learning</h3>
                 <p><strong>Gaussian Splatter: </strong> Splatter image</p>
                 <p><strong>Diffussion model: </strong>DDIM</p>
                 <p><strong>Image Segmentation: </strong> U-Net, Mask R-CNN</p>
