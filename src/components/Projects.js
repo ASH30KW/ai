@@ -54,8 +54,6 @@ const Projects = () => {
                     <h3>Geometric Scene Understanding</h3>
                     <p>The goal of this course is to gain practical experience with state-of-the-art computer vision models and implement innovative ideas tackling open real-world challenges.</p>
                     <p><strong>Technologies:</strong> Gaussian splatter, stable diffusion, deep learning</p>
-                    <a href="https://github.com/yourusername/project-one" className="btn">View Code</a>
-                    <a href="https://yourproject.com" className="btn">Live Demo</a>
                     <table className="training-table">
                         <tbody>
                             <tr>
@@ -102,7 +100,7 @@ const Projects = () => {
                         Stereo Images</h3>
                     {/* <p>Description of your project and what you achieved.</p> */}
                     <p><strong>Technologies:</strong> Matlab, Multiview Geometric Reconstruction</p>
-                    <img src={cv15} width="100%" height="100%" />
+                    <img src={cv15} width="100%" height="100%" alt="" />
                 </div>
             </div>
         </section>
