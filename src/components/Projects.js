@@ -59,7 +59,7 @@ const Projects = () => {
                 <div className="project" id="section1">
                     <h3>Geometric Scene Understanding</h3>
                     <p>The goal of this course is to gain practical experience with state-of-the-art computer vision models and implement innovative ideas tackling open real-world challenges.</p>
-                    <p><strong>Technologies:</strong> Gaussian splatter, stable diffusion, deep learning</p>
+                    <p><strong>Technologies:</strong> gaussian splatter, stable diffusion, deep learning</p>
                     <table className="training-table">
                         <tbody>
                             <tr>
