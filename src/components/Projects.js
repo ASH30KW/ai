@@ -34,20 +34,19 @@ const Projects = () => {
         <section className="projects-container">
             <nav className="toc">
                 <ul>
-                    <li>
-                        <a href="#section1" onClick={(e) => scrollToSection(e, 'section1')}>
-                            Geometric Scene Understanding
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#section2" onClick={(e) => scrollToSection(e, 'section2')}>
-                            3-Dimensional
-                            Reconstruction
-                            of a Room
-                            based on
-                            Stereo Images
-                        </a>
-                    </li>
+                    <a href="#section1" onClick={(e) => scrollToSection(e, 'section1')}>
+                        Geometric Scene Understanding
+                    </a>
+                </ul>
+                <div style={{ marginTop: '1em', marginBottom: '1em' }}></div>
+                <ul>
+                    <a href="#section2" onClick={(e) => scrollToSection(e, 'section2')}>
+                        3-Dimensional
+                        Reconstruction
+                        of a Room
+                        based on
+                        Stereo Images
+                    </a>
                 </ul>
             </nav>
             <div className="project-grid">
@@ -96,9 +95,13 @@ const Projects = () => {
                 </div>
 
                 <div className="project" id="section2">
-                    <h3>Project Two</h3>
-                    <p>Description of your project and what you achieved.</p>
-                    <p><strong>Technologies:</strong> React, Firebase, Bootstrap</p>
+                    <h3>3-Dimensional
+                        Reconstruction
+                        of a Room
+                        based on
+                        Stereo Images</h3>
+                    {/* <p>Description of your project and what you achieved.</p> */}
+                    <p><strong>Technologies:</strong> Matlab, Multiview Geometric Reconstruction</p>
                     <img src={cv15} width="100%" height="100%" />
                 </div>
             </div>
