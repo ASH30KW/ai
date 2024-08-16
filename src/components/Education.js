@@ -20,12 +20,14 @@ const Education = () => {
                         Neural Network Design Patterns in Computer Vision
                     </a>
                 </p>
+                <p><strong>Important Course: </strong> Concepts of C++ Programming: 1.7</p>
             </div>
             <div className="school">
                 <h3>B.Sc Electrical Engineering
                     and Information Technology</h3>
                 <p><strong>TUM</strong> | Oct. 2019 - Apr. 2023</p>
-                <p> <strong>Bachelor Thesis:</strong> Machine Learning Induced Web Interface for Image-Based Cytometry Gating</p>
+                <p> <strong>Bachelor Thesis: </strong> Machine Learning Induced Web Interface for Image-Based Cytometry Gating</p>
+                <p><strong>Important Course: </strong> Projektwoche Natural Language Processing (NLP) : 1.7</p>
             </div>
             {/* Add more education details as needed */}
         </section>
