@@ -11,13 +11,12 @@ const WorkExperience = () => {
                 <p>Group <a href="https://www.translatum.tum.de/en/translatum/research-groups/miguel-pleitez-translational-optoacoustic/" target="_blank" rel="noopener noreferrer">
                     TOA
                 </a></p>
+                <ul><strong>Key Responsibilities: </strong></ul>
                 <ul>
-                    <ul>
-                        <li>Designed and developed a custom framework from scratch, ensuring scalability and robustness for complex research applications.</li>
-                        <li>Spearheaded the development of the entire frontend, creating a highly efficient and user-friendly interface tailored to researchers' needs.</li>
-                        <li>Integrated and optimized backend code from multiple contributors, enhancing system performance and aligning it with project goals.</li>
-                        <li>Implemented creative solutions to significantly boost the system's runtime speed, improving overall efficiency and user experience.</li>
-                    </ul>
+                    <li><strong>Framework Development: </strong>Designed and built a real-time Microscope Scanning System framework from the ground up, enabling high-performance imaging and analysis.</li>
+                    <li><strong>Frontend Implementation: </strong>Developed a user-friendly interface with features such as A-line monitoring and real-time scanning updates, utilizing React, HTML, JavaScript, and CSS.</li>
+                    <li><strong>Backend Integration: </strong>Implemented and optimized scanning algorithms to align seamlessly with the frontend, using Django to ensure smooth data processing and interaction.</li>
+                    <li><strong>Performance Optimization: </strong>Devised and implemented innovative solutions to significantly enhance the system’s runtime efficiency, resulting in faster and more reliable scanning operations.</li>
                 </ul>
             </div>
             <div className="experience">
@@ -26,11 +25,11 @@ const WorkExperience = () => {
                 <p>Group <a href="https://www.ce.cit.tum.de/ldv/startseite/" target="_blank" rel="noopener noreferrer">
                     LDV
                 </a></p>
+                <ul><strong>Key Responsibilities: </strong></ul>
                 <ul>
-                    <ul>
-                        <li>Developed a custom gating method for a web-based platform, optimizing data filtering and selection processes.</li>
-                        <li>Implemented seamless data transmission from the backend to the frontend, enabling real-time visualization and plotting of selected data.</li>
-                    </ul>
+                    <li><strong>Frontend Development: </strong>Designed and developed manual gating interfaces using Vue.js, HTML, JavaScript, and CSS, ensuring a seamless user experience.                    </li>
+                    <li><strong>System Integration: </strong>Integrated the frontend and backend components utilizing Docker for containerization and Axios for robust API communication, enabling a microservices architecture.</li>
+                    <li><strong>Backend Development: </strong>Implemented advanced image processing algorithms based on machine learning using Python, integrated with Flask for efficient backend operations.</li>
                 </ul>
             </div>
             {/* Add more work experience as needed */}
