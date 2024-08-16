@@ -1,23 +1,24 @@
 .skills {
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .skill-set {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-  
-  .skill {
-    flex: 1 1 300px;
-    margin: 20px;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  
-  .skill h3 {
-    margin-bottom: 10px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.skill {
+  width: 100%;
+  max-width: 600px; /* Adjust this value based on your desired content width */
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.skill h3 {
+  margin-bottom: 5px;
+  font-size: 1.3em;
+}
+
+.skill p {
+  margin: 5px 0;
+  font-size: 1em;
+}

@@ -20,6 +20,8 @@ import afrotimage2 from './projects/gsu/finetuning/aferfinetuning/rot/image2.gif
 import afrotimage3 from './projects/gsu/finetuning/aferfinetuning/rot/image3.gif';
 import afrotimage4 from './projects/gsu/finetuning/aferfinetuning/rot/image4.gif';
 
+import cv15 from './projects/cv15/group_15_poster_3D_reconstruction.png';
+
 const Projects = () => {
     const scrollToSection = (e, sectionId) => {
         e.preventDefault(); // Prevent the default anchor behavior
@@ -30,7 +32,6 @@ const Projects = () => {
     };
     return (
         <section className="projects-container">
-            {/* Table of Contents */}
             <nav className="toc">
                 <ul>
                     <li>
@@ -40,13 +41,15 @@ const Projects = () => {
                     </li>
                     <li>
                         <a href="#section2" onClick={(e) => scrollToSection(e, 'section2')}>
-                            Project Two
+                            3-Dimensional
+                            Reconstruction
+                            of a Room
+                            based on
+                            Stereo Images
                         </a>
                     </li>
                 </ul>
             </nav>
-
-            {/* Main content */}
             <div className="project-grid">
                 <div className="project" id="section1">
                     <h3>Geometric Scene Understanding</h3>
@@ -72,14 +75,6 @@ const Projects = () => {
                             </tr>
                         </tbody>
                     </table>
-                </div>
-
-                <div className="project" id="section2">
-                    <h3>Project Two</h3>
-                    <p>Description of your project and what you achieved.</p>
-                    <p><strong>Technologies:</strong> React, Firebase, Bootstrap</p>
-                    <a href="https://github.com/yourusername/project-two" className="btn">View Code</a>
-                    <a href="https://yourproject.com" className="btn">Live Demo</a>
                     <table className="training-table">
                         <tbody>
                             <tr>
@@ -98,6 +93,13 @@ const Projects = () => {
                             </tr>
                         </tbody>
                     </table>
+                </div>
+
+                <div className="project" id="section2">
+                    <h3>Project Two</h3>
+                    <p>Description of your project and what you achieved.</p>
+                    <p><strong>Technologies:</strong> React, Firebase, Bootstrap</p>
+                    <img src={cv15} width="100%" height="100%" />
                 </div>
             </div>
         </section>
