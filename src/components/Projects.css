@@ -1,11 +1,14 @@
 /* Projects.css */
 
 .projects-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; /* Centers the content horizontally */
+  gap: 20px;
+  padding: 20px;
 }
+
+/* Table of Contents */
 .toc {
   width: 200px;
   position: sticky;
@@ -34,59 +37,67 @@
 .toc a:hover {
   text-decoration: underline;
 }
+
 /* Main content */
 .project-grid {
-    flex: 1;
+  flex: 1;
 }
 
 .project {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 .training-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* Ensures all columns have the same width */
 }
 
 .training-table th, 
 .training-table td {
-    border: 1px solid #000;
-    padding: 8px;
-    text-align: center;
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+  width: 20%; /* Ensure each cell occupies the same width */
 }
 
 .training-table img {
-    max-width: 100px;
-    height: auto;
+  width: 128px; /* Force the image to be displayed at 128px width */
+  height: 128px; /* Force the image to be displayed at 128px height */
+  object-fit: contain; /* Ensure the entire image fits within the specified dimensions */
+  display: block;
+  margin: 0 auto; /* Centers the image within the cell */
 }
 
 .label-cell {
-    font-weight: bold;
-    text-align: left;
-    padding-left: 10px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10px;
+  width: 20%; /* Ensures the label cell has the same width as others */
 }
 
 .project-gif {
-    width: 100%;
-    height: auto;
-    margin: 10px 0;
+  width: 100%;
+  height: auto;
+  margin: 10px 0;
 }
 
 .btn {
-    display: inline-block;
-    padding: 10px 15px;
-    margin: 10px 0;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
