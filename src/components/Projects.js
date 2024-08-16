@@ -70,9 +70,8 @@ const Projects = () => {
             <div className="project-grid">
                 <div className="project" id="section1">
                     <h3>Geometric Scene Understanding (2024)</h3>
-                    <p>The goal of this course is to gain practical experience with state-of-the-art computer vision models and implement innovative ideas tackling open real-world challenges.</p>
+                    <p>This project investigates the generalization potential of state-of-the-art computer vision models trained using the Gaussian Splatter Method. Two primary scenarios were explored:</p>
                     <p><strong>Technologies:</strong> gaussian splatter, stable diffusion, deep learning</p>
-                    <p>This project investigates the generalization potential of models trained using the Gaussian Splatter Method. Two primary scenarios were explored:</p>
                     <ul>
                         <li><strong>Joint Training: </strong>The model was trained jointly on datasets including NMR_Cars, Sofa, and Bench. This training strategy resulted in strong generalization to NMR_Chairs, demonstrating the model's robustness and adaptability across similar but distinct object categories.</li>
                         <li><strong>Fine-tuning Pre-trained Models: </strong> A model pre-trained on SRN_Cars was fine-tuned on Sofa and Bench datasets. This approach also yielded good generalization on NMR_Chairs, showcasing the effectiveness of fine-tuning strategies in enhancing model performance on new categories.</li>
@@ -157,6 +156,10 @@ const Projects = () => {
                 </div>
                 <div className="project" id="section3">
                     <h3>MMOM System Fullstack Development (2023 to 2024)</h3>
+                    <ul>
+                        <li>This project represents the culmination of 15 months of dedicated work during my tenure on the TOA team.</li>
+                        <li>Due to confidentiality clauses and agreements with TUM, I am unable to provide specific details or share any gifs, videos, or pictures.</li>
+                    </ul>
                 </div>
             </div>
         </section>
