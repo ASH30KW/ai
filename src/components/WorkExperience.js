@@ -12,9 +12,12 @@ const WorkExperience = () => {
                     TOA
                 </a></p>
                 <ul>
-                    <li>Responsibility or achievement 1.</li>
-                    <li>Responsibility or achievement 2.</li>
-                    <li>Responsibility or achievement 3.</li>
+                    <ul>
+                        <li>Designed and developed a custom framework from scratch, ensuring scalability and robustness for complex research applications.</li>
+                        <li>Spearheaded the development of the entire frontend, creating a highly efficient and user-friendly interface tailored to researchers' needs.</li>
+                        <li>Integrated and optimized backend code from multiple contributors, enhancing system performance and aligning it with project goals.</li>
+                        <li>Implemented creative solutions to significantly boost the system's runtime speed, improving overall efficiency and user experience.</li>
+                    </ul>
                 </ul>
             </div>
             <div className="experience">
@@ -24,9 +27,10 @@ const WorkExperience = () => {
                     LDV
                 </a></p>
                 <ul>
-                    <li>Responsibility or achievement 1.</li>
-                    <li>Responsibility or achievement 2.</li>
-                    <li>Responsibility or achievement 3.</li>
+                    <ul>
+                        <li>Developed a custom gating method for a web-based platform, optimizing data filtering and selection processes.</li>
+                        <li>Implemented seamless data transmission from the backend to the frontend, enabling real-time visualization and plotting of selected data.</li>
+                    </ul>
                 </ul>
             </div>
             {/* Add more work experience as needed */}
