@@ -18,7 +18,7 @@ const Skills = () => {
                 <h3>Fullstack Development</h3>
                 <p><strong>Frontend: </strong> React, Vue, HTML, CSS, JavaScript</p>
                 <p> <strong>Backend: </strong> Node.js, REST APIs</p>
-                <p><strong>others: </strong> Git, GitHub, SQL</p>
+                <p><strong>Others: </strong> Git, GitHub, SQL</p>
             </div>
             <div className="skill">
                 <h3>Other Certifications</h3>
